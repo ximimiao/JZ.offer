@@ -12,6 +12,7 @@ class solution:
     也就是说如果要查找的数字不在数组的右上角，则每一次都在数组的查找范围中剔除一行或者一列，
     这样每一步都可以缩小查找的范围，直到找到要查找的数字，或者查找范围为空
     """
+
     def findnum(self,target,array):
         rows = len(array)
         cols = len(array[0])
