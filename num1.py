@@ -19,7 +19,7 @@ class solution:
         if rows>0 and cols >0:
             row = 0
             col = cols-1
-            while row<rows and col >0:
+            while row<=rows and col >=0:
                 if array[row,col] == target:
                     return True
                 elif array[row,col] >target:
