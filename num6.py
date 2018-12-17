@@ -9,6 +9,7 @@ class resolution:
             second = third
 
         return third
+
 if __name__ == '__main__':
     fibonacci = resolution()
     n = input()
