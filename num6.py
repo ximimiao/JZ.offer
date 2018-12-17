@@ -1,4 +1,7 @@
 class resolution:
+    """
+    斐波那契数列
+    """
     def Fibonacci(self,n):
         if n<=1:
             return n
