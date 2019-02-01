@@ -1,5 +1,5 @@
 def bubblesort(numList):
-    """"""
+    #冒泡排序
     # 优化前，时间复杂度o(n2)
     for i in range (len(numList) -1):
         for j in range(i,len(numList)-1):
