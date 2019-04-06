@@ -6,7 +6,6 @@ for i in range(num):
     for i in range(len(n1)):
         m.append(int(n1[i]))
     l.append(m)
-
 for i in range (len(l)):
     summ=0
     for j in range(len(l[i])):
